@@ -254,6 +254,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/thermal-engine.conf:system/etc/thermal-engine.conf \
     vendor/htc/pme/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/htc/pme/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
+    vendor/htc/pme/proprietary/vendor/google/data/etc/sysconfig/google.xml:system/vendor/google/data/etc/sysconfig/google.xml \
     vendor/htc/pme/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/htc/pme/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/htc/pme/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
