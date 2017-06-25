@@ -262,6 +262,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/htc/pme/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/htc/pme/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/htc/pme/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/htc/pme/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/htc/pme/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/htc/pme/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
