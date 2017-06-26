@@ -948,5 +948,5 @@ PRODUCT_PACKAGES += \
     QtiTetherService \
     com.qualcomm.location \
     QPerformance \
-    com.qualcomm.qti.Performance
+    com.qualcomm.qti.Performance \
     ims
