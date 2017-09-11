@@ -935,6 +935,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libTimeService \
+    libgpustats \
     libqti_performance \
     libsd_sdk_display \
     libsdm-disp-apis \
