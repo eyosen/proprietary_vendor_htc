@@ -271,7 +271,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/htc/pme/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
-    vendor/htc/pme/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
     vendor/htc/pme/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
     vendor/htc/pme/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/htc/pme/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
