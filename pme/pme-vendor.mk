@@ -294,8 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
-    vendor/htc/pme/proprietary/vendor/lib/hw/gatekeeper.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8996.so \
-    vendor/htc/pme/proprietary/vendor/lib/hw/keystore.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/sensors.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8996.so \
@@ -745,8 +743,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
     vendor/htc/pme/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/htc/pme/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
-    vendor/htc/pme/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8996.so \
-    vendor/htc/pme/proprietary/vendor/lib64/hw/keystore.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib64/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib64/hw/sensors.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib64/lib-dplmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-dplmedia.so \
@@ -935,6 +931,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
+    gatekeeper.msm8996 \
+    keystore.msm8996 \
     libTimeService \
     libgpustats \
     libqti_performance \
