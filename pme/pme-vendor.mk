@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/htc/pme/proprietary/bin/radish:system/bin/radish \
     vendor/htc/pme/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/htc/pme/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/htc/pme/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/htc/pme/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/htc/pme/proprietary/customize/MNSprop/310160.prop:system/customize/MNSprop/310160.prop \
@@ -250,9 +249,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/htc/pme/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/htc/pme/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/htc/pme/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/htc/pme/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/htc/pme/proprietary/vendor/etc/RIDL/qdss.cfg:system/vendor/etc/RIDL/qdss.cfg \
+    vendor/htc/pme/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
     vendor/htc/pme/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/htc/pme/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/htc/pme/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
@@ -309,6 +308,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/htc/pme/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/htc/pme/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/htc/pme/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/htc/pme/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/htc/pme/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:system/vendor/firmware/libpn548_fw.so \
