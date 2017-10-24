@@ -266,7 +266,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/htc/pme/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
     vendor/htc/pme/proprietary/lib/hw/camera.msm8996.so:system/lib/hw/camera.msm8996.so \
-    vendor/htc/pme/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/lib/libBeautyChat.so:system/lib/libBeautyChat.so \
     vendor/htc/pme/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
@@ -299,7 +298,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor.msm8996.so:system/lib64/hw/fingerprint.vendor.msm8996.so \
     vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor6.msm8996.so:system/lib64/hw/fingerprint.vendor6.msm8996.so \
-    vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/htc/pme/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
@@ -324,6 +322,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/hw/keystore.msm8996.so:system/vendor/lib/hw/keystore.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:system/vendor/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/vulkan.msm8996.so:system/vendor/lib/hw/vulkan.msm8996.so \
+    vendor/htc/pme/proprietary/vendor/lib/hw/sensors.msm8996.so:system/vendor/lib/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/htc/pme/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/htc/pme/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -748,6 +747,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/hw/gatekeeper.msm8996.so:system/vendor/lib64/hw/gatekeeper.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib64/hw/keystore.msm8996.so:system/vendor/lib64/hw/keystore.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib64/hw/vulkan.msm8996.so:system/vendor/lib64/hw/vulkan.msm8996.so \
+    vendor/htc/pme/proprietary/vendor/lib64/hw/sensors.msm8996.so:system/vendor/lib64/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
     vendor/htc/pme/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
     vendor/htc/pme/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
