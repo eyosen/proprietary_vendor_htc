@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/htc/pme/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/htc/pme/proprietary/bin/htcdcpd:system/bin/htcdcpd \
-    vendor/htc/pme/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
     vendor/htc/pme/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/htc/pme/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/htc/pme/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
