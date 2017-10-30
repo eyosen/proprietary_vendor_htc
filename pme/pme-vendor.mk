@@ -144,7 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/htc/pme/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/htc/pme/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
-    vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:system/system/vendor/firmware/libpn548_fw.so \
+    vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548_fw.so \
     vendor/htc/pme/proprietary/vendor/firmware/BCM4349B1_002.002.014.0051.0061.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4349B1_002.002.014.0051.0061.hcd \
     vendor/htc/pme/proprietary/vendor/firmware/BCM4359C0_003.001.006.0065.0111.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4359C0_003.001.006.0065.0111.hcd \
     vendor/htc/pme/proprietary/vendor/firmware/ILP0100_IPM_Code_out.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ILP0100_IPM_Code_out.bin \
