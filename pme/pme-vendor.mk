@@ -120,8 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/htc/pme/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/htc/pme/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
-    vendor/htc/pme/proprietary/vendor/etc/cne/SwimConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/SwimConfig.xml \
-    vendor/htc/pme/proprietary/vendor/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/andsfCne.xml \
     vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
