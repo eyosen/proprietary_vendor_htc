@@ -57,6 +57,12 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/htc/pme/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/htc/pme/proprietary/vendor/etc/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile0.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile1.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile2.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile3.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile3.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile4.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile4.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile5.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile5.conf \
+    vendor/htc/pme/proprietary/vendor/etc/perf-profile6.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf-profile6.conf \
     vendor/htc/pme/proprietary/vendor/etc/RIDL/qdss.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/RIDL/qdss.cfg \
     vendor/htc/pme/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     vendor/htc/pme/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
