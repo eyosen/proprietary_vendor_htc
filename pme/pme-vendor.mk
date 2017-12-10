@@ -970,4 +970,5 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     QPerformance \
+    colorservice \
     com.qualcomm.qti.Performance
