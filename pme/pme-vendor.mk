@@ -86,6 +86,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/htc/pme/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
+    vendor/htc/pme/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
+    vendor/htc/pme/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
+    vendor/htc/pme/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
+    vendor/htc/pme/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
+    vendor/htc/pme/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
+    vendor/htc/pme/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
+    vendor/htc/pme/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/htc/pme/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/htc/pme/proprietary/lib64/libprojector.so:system/lib64/libprojector.so \
     vendor/htc/pme/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
     vendor/htc/pme/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
@@ -966,6 +974,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0_vendor.so \
     vendor/htc/pme/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
     vendor/htc/pme/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0_vendor.so \
+vendor/htc/pme/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so \
+    vendor/htc/pme/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
+    vendor/htc/pme/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/htc/pme/proprietary/vendor/qcril.db:$(TARGET_COPY_OUT_VENDOR)/qcril.db
 
 PRODUCT_PACKAGES += \
@@ -987,4 +998,9 @@ PRODUCT_PACKAGES += \
     TimeService \
     QPerformance \
     colorservice \
+    QtiTelephonyService \
+    CNEService \
+    qcrilmsgtunnel \
+    ims \
+    imssettings \
     com.qualcomm.qti.Performance
