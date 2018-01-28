@@ -993,8 +993,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/vendor.htc.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.htc.hardware.wifi.supplicant@1.0.so \
     vendor/htc/pme/proprietary/vendor/lib64/vendor.htc.graphics.composer@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.htc.graphics.composer@1.0_vendor.so \
     vendor/htc/pme/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/htc/pme/proprietary/vendor/media/LMspeed_508.emd$(TARGET_COPY_OUT_VENDOR)/media/LMspeed_508.emd \
-    vendor/htc/pme/proprietary/vendor/media/PFFprec_600.emd$(TARGET_COPY_OUT_VENDOR)/media/PFFprec_600.emd \
     vendor/htc/pme/proprietary/vendor/rfs/apq/gnss/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/hlos \
     vendor/htc/pme/proprietary/vendor/rfs/apq/gnss/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/readwrite \
     vendor/htc/pme/proprietary/vendor/rfs/apq/gnss/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/shared \
