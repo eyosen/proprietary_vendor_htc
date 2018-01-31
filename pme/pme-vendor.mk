@@ -256,6 +256,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.b05 \
     vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.b06 \
     vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.mdt \
+    vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b00 \
+    vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b01 \
+    vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b02 \
+    vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b03 \
+    vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b04 \
+    vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b05 \
+    vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b06 \
+    vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.mdt \
     vendor/htc/pme/proprietary/vendor/firmware/keymaste.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.b00 \
     vendor/htc/pme/proprietary/vendor/firmware/keymaste.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.b01 \
     vendor/htc/pme/proprietary/vendor/firmware/keymaste.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.b02 \
