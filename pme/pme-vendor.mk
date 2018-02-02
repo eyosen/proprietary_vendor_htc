@@ -1047,7 +1047,5 @@ PRODUCT_PACKAGES += \
     colorservice \
     QtiTelephonyService \
     CNEService \
-    qcrilmsgtunnel \
     ims \
-    imssettings \
     com.qualcomm.qti.Performance
