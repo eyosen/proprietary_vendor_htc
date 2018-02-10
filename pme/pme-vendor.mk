@@ -167,7 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/htc/pme/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
-    vendor/htc/pme/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
+    vendor/htc/pme/proprietary/lib/libftm_lib_fpc.so:system/lib/libftm_lib_fpc.so \
     vendor/htc/pme/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/pme/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
     vendor/htc/pme/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
@@ -180,8 +180,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor6.msm8996.so:system/lib64/hw/fingerprint.vendor6.msm8996.so \
     vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
-    vendor/htc/pme/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
-    vendor/htc/pme/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
+    vendor/htc/pme/proprietary/lib64/libftm_lib_fpc.so:system/lib64/libftm_lib_fpc.so \
     vendor/htc/pme/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/htc/pme/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/htc/pme/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
@@ -546,6 +545,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/htc/pme/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
+    vendor/htc/pme/proprietary/vendor/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
     vendor/htc/pme/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/htc/pme/proprietary/vendor/lib/libhwdaphal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwdaphal.so \
     vendor/htc/pme/proprietary/vendor/lib/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp1prov.so \
@@ -897,12 +897,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
     vendor/htc/pme/proprietary/vendor/lib64/libevent_observer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libevent_observer.so \
     vendor/htc/pme/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_fpc_tac_shared.so \
     vendor/htc/pme/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/htc/pme/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
     vendor/htc/pme/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/htc/pme/proprietary/vendor/lib64/libhwdaphal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwdaphal.so \
     vendor/htc/pme/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so \
     vendor/htc/pme/proprietary/vendor/lib64/libhtc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhtc_common.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libhtc_rilhook.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhtc_rilhook.so \
     vendor/htc/pme/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/htc/pme/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
     vendor/htc/pme/proprietary/vendor/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsmedia_jni.so \
