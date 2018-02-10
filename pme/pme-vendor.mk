@@ -34,6 +34,73 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/camera/s5k4e6_htc_chromatix.xml:system/etc/camera/s5k4e6_htc_chromatix.xml \
     vendor/htc/pme/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/htc/pme/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/htc/pme/proprietary/etc/firmware/alIAF_InData_4M2M:system/etc/firmware/alIAF_InData_4M2M \
+    vendor/htc/pme/proprietary/etc/firmware/alipay.b00:system/etc/firmware/alipay.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/alipay.b01:system/etc/firmware/alipay.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/alipay.b02:system/etc/firmware/alipay.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/alipay.b03:system/etc/firmware/alipay.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/alipay.b04:system/etc/firmware/alipay.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/alipay.b05:system/etc/firmware/alipay.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/alipay.b06:system/etc/firmware/alipay.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/alipay.mdt:system/etc/firmware/alipay.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib.b03:system/etc/firmware/cmnlib.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib.b04:system/etc/firmware/cmnlib.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib.b05:system/etc/firmware/cmnlib.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b00:system/etc/firmware/cmnlib64.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b01:system/etc/firmware/cmnlib64.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b02:system/etc/firmware/cmnlib64.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b03:system/etc/firmware/cmnlib64.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b04:system/etc/firmware/cmnlib64.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.b05:system/etc/firmware/cmnlib64.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/cmnlib64.mdt:system/etc/firmware/cmnlib64.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_1.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b00:system/etc/firmware/cppf.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b01:system/etc/firmware/cppf.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b02:system/etc/firmware/cppf.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b03:system/etc/firmware/cppf.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b04:system/etc/firmware/cppf.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b05:system/etc/firmware/cppf.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.b06:system/etc/firmware/cppf.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/cppf.mdt:system/etc/firmware/cppf.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/cs_CY8C.img:system/etc/firmware/cs_CY8C.img \
+    vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.b04:system/etc/firmware/dxhdcp2.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.b05:system/etc/firmware/dxhdcp2.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.b06:system/etc/firmware/dxhdcp2.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/hdcp1.b00:system/etc/firmware/hdcp1.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/hdcp1.b01:system/etc/firmware/hdcp1.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/hdcp1.b02:system/etc/firmware/hdcp1.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/hdcp1.b03:system/etc/firmware/hdcp1.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/hdcp1.b04:system/etc/firmware/hdcp1.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/hdcp1.b05:system/etc/firmware/hdcp1.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/hdcp1.b06:system/etc/firmware/hdcp1.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/hdcp1.mdt:system/etc/firmware/hdcp1.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b00:system/etc/firmware/htc_drmprov.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b01:system/etc/firmware/htc_drmprov.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b02:system/etc/firmware/htc_drmprov.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b03:system/etc/firmware/htc_drmprov.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b04:system/etc/firmware/htc_drmprov.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b05:system/etc/firmware/htc_drmprov.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b06:system/etc/firmware/htc_drmprov.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.mdt:system/etc/firmware/htc_drmprov.mdt \
     vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b00:system/etc/firmware/htc_fp6_ta.b00 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b01:system/etc/firmware/htc_fp6_ta.b01 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b02:system/etc/firmware/htc_fp6_ta.b02 \
@@ -50,6 +117,28 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b05:system/etc/firmware/htc_fpc_ta.b05 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b06:system/etc/firmware/htc_fpc_ta.b06 \
     vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.mdt:system/etc/firmware/htc_fpc_ta.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
+    vendor/htc/pme/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
+    vendor/htc/pme/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
+    vendor/htc/pme/proprietary/etc/firmware/mc_v2.b00:system/etc/firmware/mc_v2.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/mc_v2.b01:system/etc/firmware/mc_v2.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/mc_v2.b02:system/etc/firmware/mc_v2.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/mc_v2.b03:system/etc/firmware/mc_v2.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/mc_v2.b04:system/etc/firmware/mc_v2.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/mc_v2.b05:system/etc/firmware/mc_v2.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/mc_v2.b06:system/etc/firmware/mc_v2.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/mc_v2.mdt:system/etc/firmware/mc_v2.mdt \
+    vendor/htc/pme/proprietary/etc/firmware/synaptics.img:system/etc/firmware/synaptics.img \
+    vendor/htc/pme/proprietary/etc/firmware/usb_typec_otp.img:system/etc/firmware/usb_typec_otp.img \
+    vendor/htc/pme/proprietary/etc/firmware/usb_typec_otp_ad.img:system/etc/firmware/usb_typec_otp_ad.img \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b00:system/etc/firmware/widevine.b00 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b01:system/etc/firmware/widevine.b01 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b02:system/etc/firmware/widevine.b02 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b03:system/etc/firmware/widevine.b03 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b04:system/etc/firmware/widevine.b04 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
+    vendor/htc/pme/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
     vendor/htc/pme/proprietary/etc/hldm.bin:system/etc/hldm.bin \
     vendor/htc/pme/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/pme/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
@@ -158,11 +247,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/etc/init/vendor.qti.hardware.iop@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.iop@1.0-service.rc \
     vendor/htc/pme/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/htc/pme/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548_fw.so \
-    vendor/htc/pme/proprietary/vendor/firmware/BCM4349B1_002.002.014.0051.0061.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4349B1_002.002.014.0051.0061.hcd \
-    vendor/htc/pme/proprietary/vendor/firmware/BCM4359C0_003.001.006.0065.0111.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4359C0_003.001.006.0065.0111.hcd \
-    vendor/htc/pme/proprietary/vendor/firmware/ILP0100_IPM_Code_out.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ILP0100_IPM_Code_out.bin \
-    vendor/htc/pme/proprietary/vendor/firmware/ILP0100_IPM_Data_out.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/pme/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
     vendor/htc/pme/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
     vendor/htc/pme/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
@@ -186,77 +270,25 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
     vendor/htc/pme/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
     vendor/htc/pme/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
-    vendor/htc/pme/proprietary/vendor/firmware/alIAF_InData_4M2M:$(TARGET_COPY_OUT_VENDOR)/firmware/alIAF_InData_4M2M \
-    vendor/htc/pme/proprietary/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b00 \
-    vendor/htc/pme/proprietary/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b01 \
-    vendor/htc/pme/proprietary/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b02 \
-    vendor/htc/pme/proprietary/vendor/firmware/alipay.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b03 \
-    vendor/htc/pme/proprietary/vendor/firmware/alipay.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b04 \
-    vendor/htc/pme/proprietary/vendor/firmware/alipay.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b05 \
-    vendor/htc/pme/proprietary/vendor/firmware/alipay.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.b06 \
-    vendor/htc/pme/proprietary/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/alipay.mdt \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b00 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b01 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b02 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b03 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b04 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.b05 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib.mdt \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.b00 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.b01 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.b02 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib64.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.b03 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib64.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.b04 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.b05 \
-    vendor/htc/pme/proprietary/vendor/firmware/cmnlib64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cmnlib64.mdt \
-    vendor/htc/pme/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/cppf.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b00 \
-    vendor/htc/pme/proprietary/vendor/firmware/cppf.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b01 \
-    vendor/htc/pme/proprietary/vendor/firmware/cppf.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b02 \
-    vendor/htc/pme/proprietary/vendor/firmware/cppf.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b03 \
-    vendor/htc/pme/proprietary/vendor/firmware/cppf.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b04 \
-    vendor/htc/pme/proprietary/vendor/firmware/cppf.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b05 \
-    vendor/htc/pme/proprietary/vendor/firmware/cppf.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b06 \
-    vendor/htc/pme/proprietary/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.mdt \
-    vendor/htc/pme/proprietary/vendor/firmware/cs_CY8C.img:$(TARGET_COPY_OUT_VENDOR)/firmware/cs_CY8C.img \
-    vendor/htc/pme/proprietary/vendor/firmware/dxhdcp2.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b00 \
-    vendor/htc/pme/proprietary/vendor/firmware/dxhdcp2.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b01 \
-    vendor/htc/pme/proprietary/vendor/firmware/dxhdcp2.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b02 \
-    vendor/htc/pme/proprietary/vendor/firmware/dxhdcp2.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b03 \
-    vendor/htc/pme/proprietary/vendor/firmware/dxhdcp2.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b04 \
-    vendor/htc/pme/proprietary/vendor/firmware/dxhdcp2.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b05 \
-    vendor/htc/pme/proprietary/vendor/firmware/dxhdcp2.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b06 \
-    vendor/htc/pme/proprietary/vendor/firmware/dxhdcp2.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.mdt \
+    vendor/htc/pme/proprietary/vendor/firmware/adsp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b00 \
+    vendor/htc/pme/proprietary/vendor/firmware/adsp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b01 \
+    vendor/htc/pme/proprietary/vendor/firmware/adsp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b02 \
+    vendor/htc/pme/proprietary/vendor/firmware/adsp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b03 \
+    vendor/htc/pme/proprietary/vendor/firmware/adsp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b04 \
+    vendor/htc/pme/proprietary/vendor/firmware/adsp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b05 \
+    vendor/htc/pme/proprietary/vendor/firmware/adsp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b06 \
+    vendor/htc/pme/proprietary/vendor/firmware/adsp.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b07 \
+    vendor/htc/pme/proprietary/vendor/firmware/adsp.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b08 \
+    vendor/htc/pme/proprietary/vendor/firmware/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b09 \
+    vendor/htc/pme/proprietary/vendor/firmware/adspver.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/adspver.cfg \
+    vendor/htc/pme/proprietary/vendor/firmware/BCM4349B1_002.002.014.0051.0061.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4349B1_002.002.014.0051.0061.hcd \
+    vendor/htc/pme/proprietary/vendor/firmware/BCM4359C0_003.001.006.0065.0111.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4359C0_003.001.006.0065.0111.hcd \
+    vendor/htc/pme/proprietary/vendor/firmware/buildid.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/buildid.cfg \
     vendor/htc/pme/proprietary/vendor/firmware/fw_bcm4359.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359.bin \
     vendor/htc/pme/proprietary/vendor/firmware/fw_bcm4359_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359_apsta.bin \
     vendor/htc/pme/proprietary/vendor/firmware/fw_bcm4359b1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359b1.bin \
     vendor/htc/pme/proprietary/vendor/firmware/fw_bcm4359b1_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359b1_apsta.bin \
     vendor/htc/pme/proprietary/vendor/firmware/gptauuid.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/gptauuid.xml \
-    vendor/htc/pme/proprietary/vendor/firmware/hdcp1.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcp1.b00 \
-    vendor/htc/pme/proprietary/vendor/firmware/hdcp1.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcp1.b01 \
-    vendor/htc/pme/proprietary/vendor/firmware/hdcp1.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcp1.b02 \
-    vendor/htc/pme/proprietary/vendor/firmware/hdcp1.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcp1.b03 \
-    vendor/htc/pme/proprietary/vendor/firmware/hdcp1.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcp1.b04 \
-    vendor/htc/pme/proprietary/vendor/firmware/hdcp1.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcp1.b05 \
-    vendor/htc/pme/proprietary/vendor/firmware/hdcp1.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcp1.b06 \
-    vendor/htc/pme/proprietary/vendor/firmware/hdcp1.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcp1.mdt \
-    vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.b00 \
-    vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.b01 \
-    vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.b02 \
-    vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.b03 \
-    vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.b04 \
-    vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.b05 \
-    vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.b06 \
-    vendor/htc/pme/proprietary/vendor/firmware/htc_drmprov.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_drmprov.mdt \
     vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b00 \
     vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b01 \
     vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b02 \
@@ -264,50 +296,37 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b04 \
     vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b05 \
     vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.b06 \
-    vendor/htc/pme/proprietary/vendor/firmware/keymaste.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.b00 \
-    vendor/htc/pme/proprietary/vendor/firmware/keymaste.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.b01 \
-    vendor/htc/pme/proprietary/vendor/firmware/keymaste.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.b02 \
-    vendor/htc/pme/proprietary/vendor/firmware/keymaste.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.b03 \
-    vendor/htc/pme/proprietary/vendor/firmware/keymaste.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.b04 \
-    vendor/htc/pme/proprietary/vendor/firmware/keymaste.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.b05 \
-    vendor/htc/pme/proprietary/vendor/firmware/keymaste.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.b06 \
-    vendor/htc/pme/proprietary/vendor/firmware/keymaste.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/keymaste.mdt \
+    vendor/htc/pme/proprietary/vendor/firmware/htc_fpc_ta.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/htc_fpc_ta.mdt \
     vendor/htc/pme/proprietary/vendor/firmware/leia_pfp_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pfp_470.fw \
     vendor/htc/pme/proprietary/vendor/firmware/leia_pm4_470.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/leia_pm4_470.fw \
-    vendor/htc/pme/proprietary/vendor/firmware/lscbuffer_rev2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/lscbuffer_rev2.bin \
-    vendor/htc/pme/proprietary/vendor/firmware/mc_v2.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/mc_v2.b00 \
-    vendor/htc/pme/proprietary/vendor/firmware/mc_v2.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/mc_v2.b01 \
-    vendor/htc/pme/proprietary/vendor/firmware/mc_v2.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/mc_v2.b02 \
-    vendor/htc/pme/proprietary/vendor/firmware/mc_v2.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/mc_v2.b03 \
-    vendor/htc/pme/proprietary/vendor/firmware/mc_v2.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/mc_v2.b04 \
-    vendor/htc/pme/proprietary/vendor/firmware/mc_v2.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/mc_v2.b05 \
-    vendor/htc/pme/proprietary/vendor/firmware/mc_v2.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/mc_v2.b06 \
-    vendor/htc/pme/proprietary/vendor/firmware/mc_v2.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/mc_v2.mdt \
-    vendor/htc/pme/proprietary/vendor/firmware/nvm_tlv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv.bin \
-    vendor/htc/pme/proprietary/vendor/firmware/nvm_tlv_1.3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_1.3.bin \
-    vendor/htc/pme/proprietary/vendor/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_2.1.bin \
-    vendor/htc/pme/proprietary/vendor/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.0.bin \
-    vendor/htc/pme/proprietary/vendor/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.2.bin \
-    vendor/htc/pme/proprietary/vendor/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv.img \
-    vendor/htc/pme/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_1.3.tlv \
-    vendor/htc/pme/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_2.1.tlv \
-    vendor/htc/pme/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.0.tlv \
-    vendor/htc/pme/proprietary/vendor/firmware/rampatch_tlv_3.2.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_3.2.tlv \
-    vendor/htc/pme/proprietary/vendor/firmware/synaptics.img:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics.img \
+    vendor/htc/pme/proprietary/vendor/firmware/libpn548_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn548_fw.so \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b00 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b01 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b02 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b03 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b04 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b05 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b06 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b07 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b08 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b09 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b10 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b11 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b12 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b13 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b14 \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.cfg \
+    vendor/htc/pme/proprietary/vendor/firmware/slpi.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.mdt \
     vendor/htc/pme/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/htc/pme/proprietary/vendor/firmware/tfa98xx2.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx2.cnt \
     vendor/htc/pme/proprietary/vendor/firmware/tfa98xx2_n1b.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx2_n1b.cnt \
     vendor/htc/pme/proprietary/vendor/firmware/tfa98xx_n1b.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx_n1b.cnt \
-    vendor/htc/pme/proprietary/vendor/firmware/usb_typec_otp.img:$(TARGET_COPY_OUT_VENDOR)/firmware/usb_typec_otp.img \
-    vendor/htc/pme/proprietary/vendor/firmware/usb_typec_otp_ad.img:$(TARGET_COPY_OUT_VENDOR)/firmware/usb_typec_otp_ad.img \
-    vendor/htc/pme/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
-    vendor/htc/pme/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
-    vendor/htc/pme/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
-    vendor/htc/pme/proprietary/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b03 \
-    vendor/htc/pme/proprietary/vendor/firmware/widevine.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b04 \
-    vendor/htc/pme/proprietary/vendor/firmware/widevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b05 \
-    vendor/htc/pme/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
-    vendor/htc/pme/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
+    vendor/htc/pme/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
+    vendor/htc/pme/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
+    vendor/htc/pme/proprietary/vendor/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b02 \
+    vendor/htc/pme/proprietary/vendor/firmware/venus.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b03 \
+    vendor/htc/pme/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
+    vendor/htc/pme/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
     vendor/htc/pme/proprietary/vendor/lib/com.htc.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.htc.radio@1.0.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
