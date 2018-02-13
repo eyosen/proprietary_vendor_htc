@@ -23,13 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/customize/MNSprop/311180.prop:system/customize/MNSprop/311180.prop \
     vendor/htc/pme/proprietary/customize/MNSprop/default.prop:system/customize/MNSprop/default.prop \
     vendor/htc/pme/proprietary/customize/mns_map.xml:system/customize/mns_map.xml \
-    vendor/htc/pme/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/htc/pme/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/htc/pme/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/htc/pme/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/htc/pme/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/htc/pme/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/htc/pme/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/htc/pme/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/htc/pme/proprietary/etc/camera/imx377_htc_chromatix.xml:system/etc/camera/imx377_htc_chromatix.xml \
     vendor/htc/pme/proprietary/etc/camera/ov12890_htc_chromatix.xml:system/etc/camera/ov12890_htc_chromatix.xml \
@@ -142,9 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
-    vendor/htc/pme/proprietary/etc/hldm.bin:system/etc/hldm.bin \
-    vendor/htc/pme/proprietary/etc/hltof.bin:system/etc/hltof.bin \
-    vendor/htc/pme/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
     vendor/htc/pme/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/htc/pme/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/htc/pme/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
@@ -239,6 +229,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
     vendor/htc/pme/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/htc/pme/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
+    vendor/htc/pme/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/htc/pme/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
+    vendor/htc/pme/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
+    vendor/htc/pme/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
+    vendor/htc/pme/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/htc/pme/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
+    vendor/htc/pme/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
     vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/htc/pme/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
