@@ -1058,30 +1058,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/vendor.htc.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.htc.hardware.wifi.supplicant@1.0.so \
     vendor/htc/pme/proprietary/vendor/lib64/vendor.htc.graphics.composer@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.htc.graphics.composer@1.0_vendor.so \
     vendor/htc/pme/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so \
-    vendor/htc/pme/proprietary/vendor/rfs/apq/gnss/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/hlos \
-    vendor/htc/pme/proprietary/vendor/rfs/apq/gnss/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/readwrite \
-    vendor/htc/pme/proprietary/vendor/rfs/apq/gnss/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/shared \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/adsp/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/adsp/hlos \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/adsp/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/adsp/readwrite \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/adsp/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/adsp/shared \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/mpss/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/mpss/hlos\
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/mpss/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/mpss/readwrite \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/mpss/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/mpss/shared \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/slpi/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/slpi/hlos \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/slpi/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/slpi/readwrite \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/slpi/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/slpi/shared \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/tn/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/tn/hlos \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/tn/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/tn/readwrite \
-    vendor/htc/pme/proprietary/vendor/rfs/mdm/tn/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/tn/shared \
-    vendor/htc/pme/proprietary/vendor/rfs/msm/adsp/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/adsp/hlos \
-    vendor/htc/pme/proprietary/vendor/rfs/msm/adsp/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/adsp/readwrite \
-    vendor/htc/pme/proprietary/vendor/rfs/msm/adsp/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/adsp/shared \
-    vendor/htc/pme/proprietary/vendor/rfs/msm/mpss/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/hlos \
-    vendor/htc/pme/proprietary/vendor/rfs/msm/mpss/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readwrite \
-    vendor/htc/pme/proprietary/vendor/rfs/msm/mpss/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/shared \
-    vendor/htc/pme/proprietary/vendor/rfs/msm/slpi/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/slpi/hlos \
-    vendor/htc/pme/proprietary/vendor/rfs/msm/slpi/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/slpi/readwrite \
-    vendor/htc/pme/proprietary/vendor/rfs/msm/slpi/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/slpi/shared \
     vendor/htc/pme/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
