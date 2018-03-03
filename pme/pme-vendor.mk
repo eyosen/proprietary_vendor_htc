@@ -971,6 +971,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/htc/pme/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/htc/pme/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libpnp-exp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpnp-exp.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libpnp-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpnp-util.so \
     vendor/htc/pme/proprietary/vendor/lib64/libprotobuf-cpp-shit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-shit.so \
     vendor/htc/pme/proprietary/vendor/lib64/libpvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpvr.so \
     vendor/htc/pme/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
