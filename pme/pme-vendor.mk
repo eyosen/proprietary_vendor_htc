@@ -936,6 +936,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so \
     vendor/htc/pme/proprietary/vendor/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp2p2prov.so \
     vendor/htc/pme/proprietary/vendor/lib64/libhtc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhtc_common.so \
+    vendor/htc/pme/proprietary/vendor/lib64/lib_htc_fp_hal_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_htc_fp_hal_util.so \
     vendor/htc/pme/proprietary/vendor/lib64/libhtc_rilhook.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhtc_rilhook.so \
     vendor/htc/pme/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/htc/pme/proprietary/vendor/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimscamera_jni.so \
