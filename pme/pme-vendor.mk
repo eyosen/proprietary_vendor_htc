@@ -97,22 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b05:system/etc/firmware/htc_drmprov.b05 \
     vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.b06:system/etc/firmware/htc_drmprov.b06 \
     vendor/htc/pme/proprietary/etc/firmware/htc_drmprov.mdt:system/etc/firmware/htc_drmprov.mdt \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b00:system/etc/firmware/htc_fp6_ta.b00 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b01:system/etc/firmware/htc_fp6_ta.b01 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b02:system/etc/firmware/htc_fp6_ta.b02 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b03:system/etc/firmware/htc_fp6_ta.b03 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b04:system/etc/firmware/htc_fp6_ta.b04 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b05:system/etc/firmware/htc_fp6_ta.b05 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.b06:system/etc/firmware/htc_fp6_ta.b06 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fp6_ta.mdt:system/etc/firmware/htc_fp6_ta.mdt \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b00:system/etc/firmware/htc_fpc_ta.b00 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b01:system/etc/firmware/htc_fpc_ta.b01 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b02:system/etc/firmware/htc_fpc_ta.b02 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b03:system/etc/firmware/htc_fpc_ta.b03 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b04:system/etc/firmware/htc_fpc_ta.b04 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b05:system/etc/firmware/htc_fpc_ta.b05 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.b06:system/etc/firmware/htc_fpc_ta.b06 \
-    vendor/htc/pme/proprietary/etc/firmware/htc_fpc_ta.mdt:system/etc/firmware/htc_fpc_ta.mdt \
     vendor/htc/pme/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:system/etc/firmware/ILP0100_IPM_Code_out.bin \
     vendor/htc/pme/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:system/etc/firmware/ILP0100_IPM_Data_out.bin \
     vendor/htc/pme/proprietary/etc/firmware/lscbuffer_rev2.bin:system/etc/firmware/lscbuffer_rev2.bin \
@@ -179,8 +163,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/htc/pme/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/htc/pme/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
-    vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor.msm8996.so:system/lib64/hw/fingerprint.vendor.msm8996.so \
-    vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor6.msm8996.so:system/lib64/hw/fingerprint.vendor6.msm8996.so \
     vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
@@ -366,7 +348,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/htc/pme/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/camera.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8996.so \
-    vendor/htc/pme/proprietary/vendor/lib/hw/fingerprint.vendor.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.vendor.msm8996.so \
+    vendor/htc/pme/proprietary/vendor/lib/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/sound_trigger.primary.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/htc/pme/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
@@ -847,7 +829,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
     vendor/htc/pme/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/htc/pme/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
-    vendor/htc/pme/proprietary/vendor/lib64/hw/fingerprint.vendor.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.vendor.msm8996.so \
+    vendor/htc/pme/proprietary/vendor/lib64/hw/fingerprint.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.msm8996.so \
     vendor/htc/pme/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/htc/pme/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/htc/pme/proprietary/vendor/lib64/hw/vulkan.msm8996.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.msm8996.so \
