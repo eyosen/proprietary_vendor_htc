@@ -161,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/htc/pme/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/htc/pme/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
+    vendor/htc/pme/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/htc/pme/proprietary/lib/libftm_lib_fpc.so:system/lib/libftm_lib_fpc.so \
@@ -181,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor.msm8996.so:system/lib64/hw/fingerprint.vendor.msm8996.so \
     vendor/htc/pme/proprietary/lib64/hw/fingerprint.vendor6.msm8996.so:system/lib64/hw/fingerprint.vendor6.msm8996.so \
     vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
+    vendor/htc/pme/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib64/libftm_lib_fpc.so:system/lib64/libftm_lib_fpc.so \
     vendor/htc/pme/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
@@ -426,7 +428,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libaptXScheduler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXScheduler.so \
     vendor/htc/pme/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/htc/pme/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
-    vendor/htc/pme/proprietary/vendor/lib/libawb_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libawb_calibration.so \
     vendor/htc/pme/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/htc/pme/proprietary/vendor/lib/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a5xx.so \
     vendor/htc/pme/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
@@ -566,6 +567,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsi_netctrl.so \
     vendor/htc/pme/proprietary/vendor/lib/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsutils.so \
     vendor/htc/pme/proprietary/vendor/lib/libfastcvadsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvadsp_stub.so \
+    vendor/htc/pme/proprietary/vendor/lib/libcameraface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameraface.so \
     vendor/htc/pme/proprietary/vendor/lib/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvopt.so \
     vendor/htc/pme/proprietary/vendor/lib/libfeedbackhandler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeedbackhandler.so \
     vendor/htc/pme/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
@@ -907,7 +909,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libalarmservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalarmservice_jni.so \
     vendor/htc/pme/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/htc/pme/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libawb_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libawb_calibration.so \
     vendor/htc/pme/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/htc/pme/proprietary/vendor/lib64/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a5xx.so \
     vendor/htc/pme/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
