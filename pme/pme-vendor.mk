@@ -1099,4 +1099,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     imssettings \
-    com.qualcomm.qti.Performance
+    com.qualcomm.qti.Performance \
+    FingerPrint
