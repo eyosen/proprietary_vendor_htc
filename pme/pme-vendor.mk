@@ -699,6 +699,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v06k_eeprom.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q5v41b_eeprom.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
