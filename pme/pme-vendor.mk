@@ -141,6 +141,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/htc/pme/proprietary/lib/libftm_lib_fpc.so:system/lib/libftm_lib_fpc.so \
+    vendor/htc/pme/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
     vendor/htc/pme/proprietary/lib/libmdsprpc.so:system/lib/libmdsprpc.so \
     vendor/htc/pme/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/pme/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
@@ -572,6 +573,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp1prov.so \
     vendor/htc/pme/proprietary/vendor/lib/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp2p2prov.so \
     vendor/htc/pme/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
+    vendor/htc/pme/proprietary/vendor/lib/libhtc_facebeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhtc_facebeauty.so \
     vendor/htc/pme/proprietary/vendor/lib/libhtc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhtc_common.so \
     vendor/htc/pme/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/htc/pme/proprietary/vendor/lib/libjni_dualcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_dualcamera.so \
