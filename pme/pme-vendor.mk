@@ -119,6 +119,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b05:system/etc/firmware/widevine.b05 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.b06:system/etc/firmware/widevine.b06 \
     vendor/htc/pme/proprietary/etc/firmware/widevine.mdt:system/etc/firmware/widevine.mdt \
+    vendor/htc/pme/proprietary/etc/permissions/com.htc.sensor.hallsensor.xml:system/etc/permissions/com.htc.sensor.hallsensor.xml \
+    vendor/htc/pme/proprietary/etc/permissions/com.htc.sensor.sensorhub.xml.xml:system/etc/permissions/com.htc.sensor.sensorhub.xml.xml \
     vendor/htc/pme/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/htc/pme/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/htc/pme/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -141,13 +143,17 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/htc/pme/proprietary/lib/libftm_lib_fpc.so:system/lib/libftm_lib_fpc.so \
+    vendor/htc/pme/proprietary/lib/libftm_lib_sensorhub.so:system/lib/libftm_lib_sensorhub.so \
     vendor/htc/pme/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
+    vendor/htc/pme/proprietary/lib/libhtc_sensorhub.so:system/lib/libhtc_sensorhub.so \
     vendor/htc/pme/proprietary/lib/libmdsprpc.so:system/lib/libmdsprpc.so \
     vendor/htc/pme/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/pme/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/htc/pme/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/htc/pme/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
     vendor/htc/pme/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
+    vendor/htc/pme/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
+    vendor/htc/pme/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/htc/pme/proprietary/lib/libts_face_beautify_hal.so:system/lib/libts_face_beautify_hal.so \
     vendor/htc/pme/proprietary/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
     vendor/htc/pme/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
@@ -168,6 +174,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
     vendor/htc/pme/proprietary/lib64/lib-imsvtutils.so:system/lib64/lib-imsvtutils.so \
     vendor/htc/pme/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/htc/pme/proprietary/lib64/libftm_lib_sensorhub.so:system/lib64/libftm_lib_sensorhub.so \
+    vendor/htc/pme/proprietary/lib64/libhtc_sensorhub.so:system/lib64/libhtc_sensorhub.so \
     vendor/htc/pme/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/htc/pme/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/htc/pme/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
@@ -178,6 +186,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/htc/pme/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/htc/pme/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
+    vendor/htc/pme/proprietary/lib64/libsensor1.so:system/lib64/libsensor1.so \
+    vendor/htc/pme/proprietary/lib64/libsensor_reg.so:system/lib64/libsensor_reg.so \
     vendor/htc/pme/proprietary/lib64/libts_face_beautify_hal.so:system/lib64/libts_face_beautify_hal.so \
     vendor/htc/pme/proprietary/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
     vendor/htc/pme/proprietary/lib64/libvendorconn.so:system/lib64/libvendorconn.so \
@@ -796,8 +806,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/htc/pme/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/htc/pme/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
-    vendor/htc/pme/proprietary/vendor/lib/libsensor_thresh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_thresh.so \
-    vendor/htc/pme/proprietary/vendor/lib/libsensor_user_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_user_cal.so \
     vendor/htc/pme/proprietary/vendor/lib/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmemlog.so \
     vendor/htc/pme/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/htc/pme/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
@@ -1033,8 +1041,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/htc/pme/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so \
     vendor/htc/pme/proprietary/vendor/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_reg.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsensor_thresh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_thresh.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libsensor_user_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_user_cal.so \
     vendor/htc/pme/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/htc/pme/proprietary/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so \
     vendor/htc/pme/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
