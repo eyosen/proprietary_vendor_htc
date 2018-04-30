@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/htc/pme/proprietary/lib/libftm_lib_fpc.so:system/lib/libftm_lib_fpc.so \
     vendor/htc/pme/proprietary/lib/libftm_lib_sensorhub.so:system/lib/libftm_lib_sensorhub.so \
+    vendor/htc/pme/proprietary/lib/libhtc_humanprocess.so:system/lib/libhtc_humanprocess.so \
     vendor/htc/pme/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
     vendor/htc/pme/proprietary/lib/libhtc_sensorhub.so:system/lib/libhtc_sensorhub.so \
     vendor/htc/pme/proprietary/lib/libmdsprpc.so:system/lib/libmdsprpc.so \
