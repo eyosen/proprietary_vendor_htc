@@ -147,6 +147,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
     vendor/htc/pme/proprietary/lib/libhtc_sensorhub.so:system/lib/libhtc_sensorhub.so \
     vendor/htc/pme/proprietary/lib/libmdsprpc.so:system/lib/libmdsprpc.so \
+    vendor/htc/pme/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
+    vendor/htc/pme/proprietary/lib/libmorpho_frame_overlay.so:system/lib/libmorpho_frame_overlay.so \
+    vendor/htc/pme/proprietary/lib/libmorpho_image_converter.so:system/lib/libmorpho_image_converter.so \
+    vendor/htc/pme/proprietary/lib/libmorpho_image_transform.so:system/lib/libmorpho_image_transform.so \
+    vendor/htc/pme/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
+    vendor/htc/pme/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
+    vendor/htc/pme/proprietary/lib/libmorpho_movie_stabilizer4.so:system/lib/libmorpho_movie_stabilizer4.so \
     vendor/htc/pme/proprietary/lib/libprojector.so:system/lib/libprojector.so \
     vendor/htc/pme/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/htc/pme/proprietary/lib/librcc.so:system/lib/librcc.so \
@@ -722,9 +729,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
     vendor/htc/pme/proprietary/vendor/lib/libmmqjpegdma.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpegdma.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmorpho_hyperlapse_jni_v6.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_hyperlapse_jni_v6.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmorpho_movie_stabilizer4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_movie_stabilizer4.so \
-    vendor/htc/pme/proprietary/vendor/lib/libmorpho_render_util_v6.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmorpho_render_util_v6.so \
     vendor/htc/pme/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
     vendor/htc/pme/proprietary/vendor/lib/libois_lc898123.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898123.so \
     vendor/htc/pme/proprietary/vendor/lib/libopencv_calib3d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopencv_calib3d.so \
