@@ -777,27 +777,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveBlobDescriptor_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveCleverCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCleverCapture.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveCleverCapture_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCleverCapture_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceRecognition.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveFaceRecognition_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveFaceRecognition_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveImageCloning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveImageCloning.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveImageCorrection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveImageCorrection.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveImageRemoval.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveImageRemoval.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveMotionVector.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveMotionVector.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveObjectMatting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectMatting.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveObjectMatting_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectMatting_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker.so \
     vendor/htc/pme/proprietary/vendor/lib/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectTracker_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama.so \
     vendor/htc/pme/proprietary/vendor/lib/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscvePanorama_lite.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveTextReco.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveTextReco.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveTextRecoPostProcessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveTextRecoPostProcessing.so \
-    vendor/htc/pme/proprietary/vendor/lib/libscveTextReco_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveTextReco_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/htc/pme/proprietary/vendor/lib/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-color.so \
     vendor/htc/pme/proprietary/vendor/lib/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-diag.so \
@@ -1011,27 +998,14 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscalar.so \
     vendor/htc/pme/proprietary/vendor/lib64/libscveBlobDescriptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor.so \
     vendor/htc/pme/proprietary/vendor/lib64/libscveBlobDescriptor_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveBlobDescriptor_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveCleverCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCleverCapture.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveCleverCapture_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCleverCapture_stub.so \
     vendor/htc/pme/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
     vendor/htc/pme/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveFaceRecognition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveFaceRecognition_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveFaceRecognition_stub.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveImageCloning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveImageCloning.so \
     vendor/htc/pme/proprietary/vendor/lib64/libscveImageCorrection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveImageCorrection.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveImageRemoval.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveImageRemoval.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveMotionVector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveMotionVector.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectMatting.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectMatting.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectMatting_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectMatting_stub.so \
     vendor/htc/pme/proprietary/vendor/lib64/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveObjectSegmentation_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation_stub.so \
     vendor/htc/pme/proprietary/vendor/lib64/libscveObjectTracker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker.so \
     vendor/htc/pme/proprietary/vendor/lib64/libscveObjectTracker_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectTracker_stub.so \
     vendor/htc/pme/proprietary/vendor/lib64/libscvePanorama.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama.so \
     vendor/htc/pme/proprietary/vendor/lib64/libscvePanorama_lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscvePanorama_lite.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveTextReco.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveTextReco.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveTextRecoPostProcessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveTextRecoPostProcessing.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libscveTextReco_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveTextReco_stub.so \
     vendor/htc/pme/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/htc/pme/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/htc/pme/proprietary/vendor/lib64/libsdm-disp-vndapis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-vndapis.so \
