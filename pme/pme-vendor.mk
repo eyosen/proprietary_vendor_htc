@@ -136,6 +136,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/htc/pme/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/htc/pme/proprietary/lib/hw/sensors.msm8996.so:system/lib/hw/sensors.msm8996.so \
+    vendor/htc/pme/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
+    vendor/htc/pme/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/htc/pme/proprietary/lib/libawb_calibration.so:system/lib/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib/lib_fp_img_store.so:system/lib/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
@@ -168,6 +170,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:system/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/htc/pme/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
+    vendor/htc/pme/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
+    vendor/htc/pme/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/htc/pme/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
     vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib64/libftm_lib_fpc.so:system/lib64/libftm_lib_fpc.so \
@@ -426,9 +430,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libadsp_hvx_callback_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_hvx_callback_skel.so \
     vendor/htc/pme/proprietary/vendor/lib/libadsp_hvx_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_hvx_stub.so \
     vendor/htc/pme/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/htc/pme/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/htc/pme/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
-    vendor/htc/pme/proprietary/vendor/lib/libaptXScheduler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXScheduler.so \
     vendor/htc/pme/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/htc/pme/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/htc/pme/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
