@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/hima-common/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
     vendor/htc/hima-common/proprietary/etc/otp.bin:system/etc/otp.bin \
+    vendor/htc/hima-common/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
     vendor/htc/hima-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/htc/hima-common/proprietary/vendor/bin/cir_fw_update:$(TARGET_COPY_OUT_VENDOR)/bin/cir_fw_update \
     vendor/htc/hima-common/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
