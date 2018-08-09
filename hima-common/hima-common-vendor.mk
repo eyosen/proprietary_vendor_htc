@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/hima-common/proprietary/etc/hltof.bin:system/etc/hltof.bin \
     vendor/htc/hima-common/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
     vendor/htc/hima-common/proprietary/etc/otp.bin:system/etc/otp.bin \
+    vendor/htc/hima-common/proprietary/lib/libhtc_facebeauty.so:system/lib/libhtc_facebeauty.so \
     vendor/htc/hima-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/htc/hima-common/proprietary/vendor/bin/cir_fw_update:system/vendor/bin/cir_fw_update \
     vendor/htc/hima-common/proprietary/vendor/bin/energy-awareness:system/vendor/bin/energy-awareness \
@@ -807,4 +808,3 @@ PRODUCT_PACKAGES += \
     libTimeService \
     libtime_genoff \
     TimeService
-
