@@ -179,8 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/lib/libmorpho_jpeg_io.so:system/lib/libmorpho_jpeg_io.so \
     vendor/htc/m8qlul/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
     vendor/htc/m8qlul/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/htc/m8qlul/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
-    vendor/htc/m8qlul/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/htc/m8qlul/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
     vendor/htc/m8qlul/proprietary/lib/libtuning_aec.so:system/lib/libtuning_aec.so \
     vendor/htc/m8qlul/proprietary/lib/libtuning_aec_imx214_htc_hdr.so:system/lib/libtuning_aec_imx214_htc_hdr.so \
@@ -233,13 +231,10 @@ PRODUCT_COPY_FILES += \
     vendor/htc/m8qlul/proprietary/lib64/libhtcsecure.so:system/lib64/libhtcsecure.so \
     vendor/htc/m8qlul/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/htc/m8qlul/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
-    vendor/htc/m8qlul/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-    vendor/htc/m8qlul/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/htc/m8qlul/proprietary/lib64/libtuning_aec.so:system/lib64/libtuning_aec.so \
     vendor/htc/m8qlul/proprietary/lib64/libtuning_af.so:system/lib64/libtuning_af.so \
     vendor/htc/m8qlul/proprietary/lib64/libtuning_af_lc898212_imx214.so:system/lib64/libtuning_af_lc898212_imx214.so \
     vendor/htc/m8qlul/proprietary/lib64/libtuning_awb.so:system/lib64/libtuning_awb.so \
-    vendor/htc/m8qlul/proprietary/lib64/libwifi-hal-qcom.so:system/lib64/libwifi-hal-qcom.so \
     vendor/htc/m8qlul/proprietary/lib64/libhtc_rilhook.so:system/lib64/libhtc_rilhook.so \
     vendor/htc/m8qlul/proprietary/vendor/bin/audioflacapp:system/vendor/bin/audioflacapp \
     vendor/htc/m8qlul/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
