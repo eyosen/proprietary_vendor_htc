@@ -1103,6 +1103,52 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/htc/pme/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so
 
+# WFD from op3
+PRODUCT_COPY_FILES += \
+    vendor/htc/pme/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/htc/pme/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
+    vendor/htc/pme/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
+    vendor/htc/pme/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
+    vendor/htc/pme/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/htc/pme/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
+    vendor/htc/pme/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/htc/pme/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/htc/pme/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/htc/pme/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/htc/pme/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+    vendor/htc/pme/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
+    vendor/htc/pme/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
+    vendor/htc/pme/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
+    vendor/htc/pme/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
+    vendor/htc/pme/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
+    vendor/htc/pme/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
+    vendor/htc/pme/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
+    vendor/htc/pme/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
+    vendor/htc/pme/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
+    vendor/htc/pme/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
+    vendor/htc/pme/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
+    vendor/htc/pme/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
+    vendor/htc/pme/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
+    vendor/htc/pme/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
+    vendor/htc/pme/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
+    vendor/htc/pme/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
+    vendor/htc/pme/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
+    vendor/htc/pme/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/htc/pme/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
+    vendor/htc/pme/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
+    vendor/htc/pme/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
+    vendor/htc/pme/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
+    vendor/htc/pme/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
+    vendor/htc/pme/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+    vendor/htc/pme/proprietary/vendor/lib/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmosal_proprietary.so \
+    vendor/htc/pme/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
+    vendor/htc/pme/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
+    vendor/htc/pme/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
+    vendor/htc/pme/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
+    vendor/htc/pme/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so
+
+
+
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     com.quicinc.cne.api@1.0 \
@@ -1120,4 +1166,6 @@ PRODUCT_PACKAGES += \
     SmartcardService \
     qcrilmsgtunnel \
     ims \
+    WfdCommon \
+    WfdService \
     FingerPrint
