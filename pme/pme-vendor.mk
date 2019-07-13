@@ -1149,8 +1149,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
     vendor/htc/pme/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so
 
-
-
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     com.quicinc.cne.api@1.0 \
@@ -1169,5 +1167,4 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     WfdCommon \
-    WfdService \
-    FingerPrint
+    WfdService
