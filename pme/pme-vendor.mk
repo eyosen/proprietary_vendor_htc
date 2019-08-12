@@ -175,8 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/lib/vendor.qti.gnss@2.1.so:system/lib/vendor.qti.gnss@2.1.so \
     vendor/htc/pme/proprietary/lib64/hw/sensors.msm8996.so:system/lib64/hw/sensors.msm8996.so \
     vendor/htc/pme/proprietary/lib64/libawb_calibration.so:system/lib64/libawb_calibration.so \
-    vendor/htc/pme/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
-    vendor/htc/pme/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/htc/pme/proprietary/lib64/lib_fp_img_store.so:system/lib64/lib_fp_img_store.so \
     vendor/htc/pme/proprietary/lib64/libftm_lib_fpc.so:system/lib64/libftm_lib_fpc.so \
     vendor/htc/pme/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
@@ -1149,6 +1147,8 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
     vendor/htc/pme/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so
 
+
+
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
     com.quicinc.cne.api@1.0 \
@@ -1167,4 +1167,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     WfdCommon \
-    WfdService
+    WfdService \
+    FingerPrint
