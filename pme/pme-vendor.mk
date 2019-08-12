@@ -1167,5 +1167,4 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     WfdCommon \
-    WfdService \
-    FingerPrint
+    WfdService
