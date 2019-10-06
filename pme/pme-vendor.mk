@@ -979,7 +979,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/lib64/libqmiservices_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmiservices_ext.so \
     vendor/htc/pme/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-ltedirectdisc.so \
     vendor/htc/pme/proprietary/vendor/lib64/libril-qc-qmi-1-cdma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1-cdma.so \
-    vendor/htc/pme/proprietary/vendor/lib64/libril-qc-qmi-1-default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1.so \
+    vendor/htc/pme/proprietary/vendor/lib64/libril-qc-qmi-1-default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-qmi-1-default.so \
     vendor/htc/pme/proprietary/vendor/lib64/libril-qc-radioconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-radioconfig.so \
     vendor/htc/pme/proprietary/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so \
     vendor/htc/pme/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
