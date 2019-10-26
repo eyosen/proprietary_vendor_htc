@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/bin/htcdcpd:system/bin/htcdcpd \
     vendor/htc/pme/proprietary/bin/htcnetd:system/bin/htcnetd \
     vendor/htc/pme/proprietary/bin/htcnetdumplog:system/bin/htcnetdumplog \
+    vendor/htc/pme/proprietary/bin/move_time_data.sh:system/bin/move_time_data.sh \
     vendor/htc/pme/proprietary/customize/MNSprop/310160.prop:system/customize/MNSprop/310160.prop \
     vendor/htc/pme/proprietary/customize/MNSprop/311180.prop:system/customize/MNSprop/311180.prop \
     vendor/htc/pme/proprietary/customize/MNSprop/default.prop:system/customize/MNSprop/default.prop \
