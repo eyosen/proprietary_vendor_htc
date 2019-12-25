@@ -15,6 +15,18 @@
 soong_namespace {
 }
 
+android_app_import {
+	name: "ims",
+	owner: "htc",
+	apk: "proprietary/product/priv-app/ims/ims.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
 dex_import {
     name: "WfdCommon",
     owner: "htc",
