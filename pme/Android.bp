@@ -16,8 +16,19 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "com.qualcomm.location",
+	owner: "htc",
+	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "CneApp",
-	owner: "oneplus",
+	owner: "htc",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -28,7 +39,7 @@ android_app_import {
 
 android_app_import {
 	name: "dpmserviceapp",
-	owner: "oneplus",
+	owner: "htc",
 	apk: "proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk",
 	certificate: "platform",
 	dex_preopt: {
