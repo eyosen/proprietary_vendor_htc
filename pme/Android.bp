@@ -16,17 +16,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "com.qualcomm.location",
-	owner: "htc",
-	apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "CneApp",
 	owner: "htc",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
