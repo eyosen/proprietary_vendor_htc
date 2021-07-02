@@ -321,6 +321,20 @@ PRODUCT_COPY_FILES += \
     vendor/htc/pme/proprietary/vendor/firmware/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b09 \
     vendor/htc/pme/proprietary/vendor/firmware/adspver.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/adspver.cfg \
     vendor/htc/pme/proprietary/vendor/firmware/BCM4349B1_002.002.014.0051.0061.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4349B1_002.002.014.0051.0061.hcd \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.mdt \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b08 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b09 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b11 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b14 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b16 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b18 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b19 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b20 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b22:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b22 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b24:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b24 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b26:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b26 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b28:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b28 \
+    vendor/htc/pme/proprietary/vendor/firmware/cpe_9335.b29:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9335.b29 \
     vendor/htc/pme/proprietary/vendor/firmware/BCM4359C0_003.001.006.0065.0111.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4359C0_003.001.006.0065.0111.hcd \
     vendor/htc/pme/proprietary/vendor/firmware/buildid.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/buildid.cfg \
     vendor/htc/pme/proprietary/vendor/firmware/fw_bcm4359.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fw_bcm4359.bin \
